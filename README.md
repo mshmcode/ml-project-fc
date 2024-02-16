@@ -5,6 +5,9 @@ There's my final Python and Machine Learning in Data Science bootcamp.
 This project is the result of completing a 100-hour **Data Science** bootcamp at the _Future Collars_ training company in Poland.
 I used Visual Studio Code as notebook to implement the project.
 
+BTW: I had to remove 25499 removes from loan_data.csv, because because the file exceeded 25MB.
+The notebook was made for a file with all data (over 44 MB csv).
+
 Enjoy!
 
 #### Project tasks:
