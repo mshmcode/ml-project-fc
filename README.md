@@ -21,18 +21,20 @@ will predict with a certain accuracy whether a potential borrower will repay his
 The data set includes a file with a description of all variables and the "FICO Score ranged.pdf" file,
 which describes in detail the meaning of one of the columns.
 
--- The individual stages of analysis required to complete the project and their scoring are presented below:
--- Data Processing – as an experienced Data Scientist, you probably know the individual steps that need to be performed at this stage, so we will not detail them here.
--- EDA, i.e. extensive data exploration - Describe the conclusions drawn from each graph, support your hypotheses with statistical tests such as t-test or Chi-square. Additionally, answer the following questions:
--- How does a FICO score relate to a borrower's likelihood of repaying a loan?
--- How does credit age relate to the probability of default and whether this risk is independent of or related to FICO score?
--- How does home mortgage status relate to the likelihood of default?
--- How is annual income related to the probability of default?
--- How is employment history related to the likelihood of default?
--- How is the size of the loan requested related to the probability of default?
--- Feature Engineering – create 20 new variables.
--- Modeling
--- Cluster the data (try several methods, at least 3) and check whether there are any borrower segments, use appropriate methods to determine the optimal number of clusters.
--- Train 5 different models, using a different algorithm for each, and then compare their performance, using the AUROC score as the model quality metric.
--- Check the operation of previously used methods on compressed data using PCA, compare the results (AUROC score) with the models trained in the previous section.
--- Build the final model whose AUROC score will be >= 80%, remember to select important variables, cross-validate and tune model parameters, also think about balancing classes.
+The individual stages of analysis required to complete the project and their scoring are presented below:
+⃝ Data Processing.
+  • As an experienced Data Scientist, you probably know the individual steps
+    that need to be performed at this stage, so we will not detail them here.
+⃝ EDA, i.e. extensive data exploration - Describe the conclusions drawn from each graph, support your hypotheses with statistical tests such as t-test or Chi-square. Additionally, answer the following questions:
+  • How does a FICO score relate to a borrower's likelihood of repaying a loan?
+  • How does credit age relate to the probability of default and whether this risk is independent of or related to FICO score?
+  • How does home mortgage status relate to the likelihood of default?
+  • How is annual income related to the probability of default?
+  • How is employment history related to the likelihood of default?
+  • How is the size of the loan requested related to the probability of default?
+⃝ Feature Engineering – create 20 new variables.
+⃝ Modeling.
+  • Cluster the data (try several methods, at least 3) and check whether there are any borrower segments, use appropriate methods to determine the optimal number of clusters.
+  • Train 5 different models, using a different algorithm for each, and then compare their performance, using the AUROC score as the model quality metric.
+  • Check the operation of previously used methods on compressed data using PCA, compare the results (AUROC score) with the models trained in the previous section.
+  • Build the final model whose AUROC score will be >= 80%, remember to select important variables, cross-validate and tune model parameters, also think about balancing classes.
